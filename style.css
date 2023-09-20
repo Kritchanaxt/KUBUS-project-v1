@@ -56,7 +56,7 @@ body{
 }
 .langbg{
     /*dropdown*/
-    display: flex; /* <== เปลี่ยนเป็น none แต่อยากให้มัน click ได้อะ แต่ทำไม่เป็น :) */
+    display: none; /* <== เปลี่ยนเป็น none แต่อยากให้มัน click ได้อะ แต่ทำไม่เป็น :) */
     flex-direction:column;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
@@ -69,10 +69,10 @@ body{
     font-size: 22px;
     margin-top: 10px;
 }
-#langdrop:hover .langbg{
+/*#langdrop:hover .langbg{
     display: block;
     
-}
+}*/
 .thailang{
     margin: 0px 0px;
     padding: 8px 0px;
@@ -190,7 +190,7 @@ body{
     align-items: center;
 }
 .busbig{
-    max-width: max-content;
+    width: 200px;
     background-color: black;
 
 }
