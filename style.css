@@ -194,3 +194,28 @@ body{
     background-color: black;
 
 }
+
+/*Media for ipad*/
+@media only screen and (max-width:600px){
+    body{
+        background-color: blue;
+    }
+    #navb{
+        display: flex;
+        flex-direction: column;
+    }
+    .navtext{
+        display: flex;
+        flex-direction: column;
+        font-size: 40pxpx;
+
+    }
+    #navblogo{
+        margin: 10px 0 0 0;
+    }
+    #bdone{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+}
