@@ -3,3 +3,4 @@ $(document).ready(function(){
         $('.langbg').toggle(0);
     });
 });
+
