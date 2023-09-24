@@ -10,7 +10,8 @@ body{
     height: 1024px;
     background-repeat: no-repeat;
 }
-#navb{
+
+#navb {
     display: flex;
     flex-direction: flex;
     text-align: center;
@@ -18,17 +19,22 @@ body{
     justify-content: space-around;
     height: 100px;
     position: sticky;
-    top: 0px; 
+    top: 0;
+    background-color: transparent;
+}
+  
+  #navb.scroll {
     background-color: #ffffff; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
 }
-
+  
 .navblogo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
+    margin-right: 60px;
 }
+
 .navtext{
     justify-content: center;
     display: flex;
@@ -201,37 +207,118 @@ body{
 }
 /*-------------------- bodyweb 2 ฮอยย้ะ ------------------------*/
 #About {
-    padding: 500px 0;
+    padding:600px 0;
     width: 100%;
-    height: 1024px;
+    height: 1290px;
+}
+
+#About div h1 {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: rgba(3, 3, 77, 0.80);
+    font-size: 50px;
 }
 
 .about-list {
+    padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 20px;
-    margin-top: 50px;
 }
 
-.about-list div img {
-    margin: 5px;
-    border-radius: 30px;
-    background-color: #03034D;
-    padding: 10px 25px;
+.about-list div {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
+    position: relative;
+    margin-left: 30px;
+    color: rgba(3, 3, 77, 0.80);
+  }
+
+.Routes img {
+    align-items: center;
+    margin-left: 60px;
+    width: 299px;
+    height: 484px;
+    margin-top: -60px;
 }
 
-.about-list div h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
+.Routes h2  {
+    margin-top: -100px;
+    margin-left: 20px;
+    font-size: 38px;
 }
 
-.about-list div a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
+.Routes h4 {
+    margin-left: 25px;
     margin-top: 20px;
-    display: inline-block;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.Routes p  {
+    margin-left: 95px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.TrackLive img {
+    align-items: center;
+    width: 374px;
+    height: 374px;
+    margin-left: 20px;
+}
+
+.TrackLive h2 {
+    margin-top: -50px;
+    margin-left: 40px;
+    font-size: 38px;
+    margin-left: 60px;
+}
+
+.TrackLive h4 {
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.TrackLive p  {
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.GetDirections img {
+    align-items: center;
+    margin-right: 60px;
+    width: 360px;
+    height: 380px;
+}
+
+.GetDirections h2 {
+    margin-top: -60px;
+    margin-left: 45px;
+    font-size: 38px;
+}
+.GetDirections h4 {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.GetDirections p  {
+    margin-left: 85px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
 }
 
 
