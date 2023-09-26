@@ -10,20 +10,31 @@ body{
     height: 1024px;
     background-repeat: no-repeat;
 }
-#navb{
+
+#navb {
     display: flex;
-    flex-direction: row;
+    flex-direction: flex;
     text-align: center;
     position: relative;
     justify-content: space-around;
-    height: 130px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: transparent;
 }
+  
+  #navb.scroll {
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+  
 .navblogo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
+    margin-right: 60px;
 }
+
 .navtext{
     justify-content: center;
     display: flex;
@@ -34,7 +45,7 @@ body{
     margin:0 20px;
     font-weight: bold;
     /* 3D VIEW */
-    color: rgba(3, 3, 77, 0.8);
+    color: rgba(1, 1, 77, 0.8);
 }
 #dropdown{
     margin-left: 10px;
@@ -194,6 +205,123 @@ body{
     background-color: black;
 
 }
+/*-------------------- bodyweb 2 ฮอยย้ะ ------------------------*/
+#About {
+    padding:600px 0;
+    width: 100%;
+    height: 1290px;
+}
+
+#About div h1 {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: rgba(3, 3, 77, 0.80);
+    font-size: 50px;
+}
+
+.about-list {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 20px;
+}
+
+.about-list div {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
+    position: relative;
+    margin-left: 30px;
+    color: rgba(3, 3, 77, 0.80);
+  }
+
+.Routes img {
+    align-items: center;
+    margin-left: 60px;
+    width: 299px;
+    height: 484px;
+    margin-top: -60px;
+}
+
+.Routes h2  {
+    margin-top: -100px;
+    margin-left: 20px;
+    font-size: 38px;
+}
+
+.Routes h4 {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.Routes p  {
+    margin-left: 95px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.TrackLive img {
+    align-items: center;
+    width: 374px;
+    height: 374px;
+    margin-left: 20px;
+}
+
+.TrackLive h2 {
+    margin-top: -50px;
+    margin-left: 40px;
+    font-size: 38px;
+    margin-left: 60px;
+}
+
+.TrackLive h4 {
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.TrackLive p  {
+    margin-left: 80px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.GetDirections img {
+    align-items: center;
+    margin-right: 60px;
+    width: 360px;
+    height: 380px;
+}
+
+.GetDirections h2 {
+    margin-top: -60px;
+    margin-left: 45px;
+    font-size: 38px;
+}
+.GetDirections h4 {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+.GetDirections p  {
+    margin-left: 85px;
+    margin-top: 5px;
+    font-size: 24px;
+    color: rgba(3, 3, 77, 0.50);
+}
+
+
 
 /*Media for ipad*/
 @media only screen and (max-width:600px){
