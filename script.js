@@ -4,6 +4,7 @@ $(document).ready(function(){
     });
 });
 
+
 //nav transparent
 window.addEventListener('scroll', () => {
     const nav = document.getElementById('navb');
@@ -13,4 +14,3 @@ window.addEventListener('scroll', () => {
       nav.classList.remove('scroll');
     }
   });
-  

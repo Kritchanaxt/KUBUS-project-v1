@@ -7,7 +7,7 @@
 body{
     background: linear-gradient(0deg, rgba(10, 209, 159, 0.3) 0%, rgba(1, 255, 57, 0.3) 44.79%, rgba(0, 255, 56, 0) 100%);
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background-repeat: no-repeat;
 }
 
@@ -209,9 +209,9 @@ body{
 }
 /*-------------------- bodyweb 2 ฮอยย้ะ ------------------------*/
 #About {
-    padding:550px 0;
+    padding: 550px 0;
     width: 100%;
-    height: 1290px;
+    height: 1280px;
 }
 
 #About div h1 {
@@ -243,27 +243,27 @@ body{
 
 .Routes img {
     align-items: center;
-    margin-left: 60px;
-    width: 299px;
+    margin-left: 100px;
+    width: 380px;
     height: 484px;
     margin-top: -60px;
 }
 
 .Routes h2  {
     margin-top: -100px;
-    margin-left: 20px;
+    margin-left: 110px;
     font-size: 38px;
 }
 
 .Routes h4 {
-    margin-left: 25px;
+    margin-left: 117px;
     margin-top: 20px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
 }
 
 .Routes p  {
-    margin-left: 95px;
+    margin-left: 185px;
     margin-top: 5px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
@@ -273,25 +273,24 @@ body{
     align-items: center;
     width: 374px;
     height: 374px;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .TrackLive h2 {
     margin-top: -50px;
-    margin-left: 40px;
     font-size: 38px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .TrackLive h4 {
-    margin-left: 55px;
+    margin-left: 97px;
     margin-top: 20px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
 }
 
 .TrackLive p  {
-    margin-left: 80px;
+    margin-left: 127px;
     margin-top: 5px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
@@ -305,24 +304,41 @@ body{
 }
 
 .GetDirections h2 {
-    margin-top: -60px;
+    margin-top: -55px;
     margin-left: 45px;
     font-size: 38px;
 }
 .GetDirections h4 {
-    margin-left: 15px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
 }
 
 .GetDirections p  {
-    margin-left: 85px;
+    margin-left: 75px;
     margin-top: 5px;
     font-size: 24px;
     color: rgba(3, 3, 77, 0.50);
 }
 
+/*-------------------- bodyweb 3  ------------------------*/
+#View3D {
+    padding:500px 0;
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(180deg, rgba(1, 255, 57, 0.30) 0%, rgba(10, 209, 159, 0.30) 50%, rgba(1, 255, 57, 0.00) 100%);
+}
+
+#View3D div h1 {
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    color: rgba(3, 3, 77, 0.80);
+    font-size: 50px;
+}
 
 
 /*Media for ipad*/
