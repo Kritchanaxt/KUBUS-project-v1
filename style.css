@@ -21,6 +21,7 @@ body{
     position: sticky;
     top: 0;
     background-color: transparent;
+    z-index: 2;
 }
 #navb.scroll {
     background-color: #ffffff; 
@@ -203,9 +204,10 @@ body{
     align-items: center;
 }
 .busbig{
+    position: absolute;
+    right: 0px;
     background-color: transparent;
-    width: 400px;
-    float: right;
+    width: 800px; 
 }
 /*-------------------- bodyweb 2 ฮอยย้ะ ------------------------*/
 #About {
@@ -345,16 +347,17 @@ body{
 @media only screen and (max-width:600px){
     body{
         height: 1090px;
+
     }
     #navb{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0px;
         padding: 0;
     }
     .navtext{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         font-size: 14px;
         margin-top: 0;
     }
@@ -364,10 +367,23 @@ body{
     .Contact.navtext{
         margin-right: 0px;
     }
+    .navblogo{
+        display: flex;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        float: right;
+        margin-left: 95px;
+    }
     #navlogo{
+        display: flex;
+        flex-direction: column;
         margin: 40px 0 0 0;
         justify-content: center;
         margin-right: 30px;
+        align-items: center;
+        
     }
     #bdone{
         display: flex;
